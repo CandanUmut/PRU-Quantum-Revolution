@@ -1,7 +1,5 @@
 # Creating the full Python file content for the PRU-style entanglement experiment
 
-pru_entanglement_code = '''
-"""
 Entanglement Simulation using PRU (Precomputed Relational Universe) Principles
 
 Author: Umut Candan, Nova
@@ -69,11 +67,5 @@ plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
 plt.title("Relational Entanglement Outcome Distribution")
 plt.axis('equal')
 plt.show()
-'''
 
-# Save to file
-file_path = "/mnt/data/entanglement_pru.py"
-with open(file_path, "w") as f:
-    f.write(pru_entanglement_code)
 
-file_path
