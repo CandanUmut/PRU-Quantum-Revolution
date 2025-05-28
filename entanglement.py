@@ -4,13 +4,12 @@ Entanglement Simulation using PRU (Precomputed Relational Universe) Principles
 
 Author: Umut Candan, Nova
 Date: 2025
-
+"""
 Description:
 This simulation reproduces quantum entanglement behavior using deterministic,
 relational state sharing instead of probabilistic quantum mechanics. The result
 is a relational model that reflects entanglement correlations without wavefunctions
 or non-local collapse.
-
 """
 
 import numpy as np
